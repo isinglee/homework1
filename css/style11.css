@@ -1,0 +1,33 @@
+ body{
+     background-color: #eeeeee;
+}
+
+img{
+    width: 130px;
+}
+
+.container{
+    width: 510px;
+    height:755px;
+    padding: 50px;
+    border: 1px solid #333;
+    box-shadow: 1px 1px 5px 5px 0.8 #000;
+    background-color: #ffffff;
+    -webkit-box-shadow: 3px 11px 22px 5px rgba(0,0,0,0.61);
+    -moz-box-shadow: 3px 11px 22px 5px rgba(0,0,0,0.61);
+    box-shadow: 3px 11px 22px 5px rgba(0,0,0,0.61);
+    margin: auto;
+}
+
+.header p,
+.header h1{
+    text-align: center;
+}
+
+.section{
+    border-bottom: 1px solid #888;
+}
+
+.section:last-child {
+    border: 0;
+}
